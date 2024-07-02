@@ -3,8 +3,8 @@ window.onload = function(){
         const now = new Date();
         const utcTime = now. toUTCString().slice(-12,-4);
         document.querySelector(`[data-testid="currentTimeUTC"]`).innerText = utcTime;
-        img.width = img.naturalWidth;
-        img.height = img.naturalHeight;
+        // img.width = img.naturalWidth;
+        // img.height = img.naturalHeight;
     }
     updateTime();
     setInterval(updateTime, 1000);
