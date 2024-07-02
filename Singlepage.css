@@ -28,6 +28,9 @@ header h1{
 
 .Profile img{
     border-radius: 48%;
+    width: auto;
+    height: auto;
+    max-width: 100%;
 }
 
 .Profile p{
