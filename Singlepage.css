@@ -1,0 +1,55 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-image:url("/background.jpg");
+    color: whitesmoke;
+}
+
+.Container{
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+header, .Profile, .time-info, .goals, .links{
+    margin-bottom: 20px;
+}
+
+header h1{
+    text-align: center;
+    font-family: Garamond;
+}
+
+.Profile{
+    text-align: center;
+}
+
+.Profile img{
+    border-radius: 48%;
+}
+
+.Profile p{
+    margin: 5px 0;
+}
+
+.goals ul, .links ul{
+    list-style: none;
+    padding: 0;
+}
+
+.goals ul li, .links ul li{
+    margin: 10px 0px;
+}
+
+.links ul li a{
+    text-decoration: none;
+    color: lightskyblue;
+}
+
+@media(max-width:600px){
+    .Container{
+        padding: 10px;
+    }
+}
