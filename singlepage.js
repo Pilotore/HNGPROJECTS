@@ -13,4 +13,4 @@ window.onload = function(){
     const daysOfWeek =["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
     const currentDay =daysOfWeek[new Date().getUTCDay()];
     document.querySelector(`[data-testid="currentDay"]`).innerText = currentDay;
-}
+};
